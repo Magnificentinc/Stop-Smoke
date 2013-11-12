@@ -22,6 +22,7 @@
 		D0FCF25F1831F77900C7F9CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2431831F77900C7F9CE /* CoreData.framework */; };
 		D0FCF2671831F77900C7F9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2651831F77900C7F9CE /* InfoPlist.strings */; };
 		D0FCF2691831F77900C7F9CE /* _stopSmokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */; };
+		D0FCF2731831FBF100C7F9CE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D0FCF2641831F77900C7F9CE /* #stopSmokeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#stopSmokeTests-Info.plist"; sourceTree = "<group>"; };
 		D0FCF2661831F77900C7F9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _stopSmokeTests.m; sourceTree = "<group>"; };
+		D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FCF2401831F77900C7F9CE /* CoreGraphics.framework in Frameworks */,
+				D0FCF2731831FBF100C7F9CE /* FacebookSDK.framework in Frameworks */,
 				D0FCF2441831F77900C7F9CE /* CoreData.framework in Frameworks */,
 				D0FCF2421831F77900C7F9CE /* UIKit.framework in Frameworks */,
 				D0FCF23E1831F77900C7F9CE /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		D0FCF23C1831F77900C7F9CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */,
 				D0FCF23D1831F77900C7F9CE /* Foundation.framework */,
 				D0FCF23F1831F77900C7F9CE /* CoreGraphics.framework */,
 				D0FCF2411831F77900C7F9CE /* UIKit.framework */,
@@ -370,6 +374,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/macbookair/Documents/developer\\ /Project/ios/ODP/#stopSmoke",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
 				INFOPLIST_FILE = "#stopSmoke/#stopSmoke-Info.plist";
@@ -383,6 +391,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/macbookair/Documents/developer\\ /Project/ios/ODP/#stopSmoke",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
 				INFOPLIST_FILE = "#stopSmoke/#stopSmoke-Info.plist";
