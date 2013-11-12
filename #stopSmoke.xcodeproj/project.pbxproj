@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FCF23E1831F77900C7F9CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF23D1831F77900C7F9CE /* Foundation.framework */; };
+		D0FCF2401831F77900C7F9CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF23F1831F77900C7F9CE /* CoreGraphics.framework */; };
+		D0FCF2421831F77900C7F9CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2411831F77900C7F9CE /* UIKit.framework */; };
+		D0FCF2441831F77900C7F9CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2431831F77900C7F9CE /* CoreData.framework */; };
+		D0FCF24A1831F77900C7F9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2481831F77900C7F9CE /* InfoPlist.strings */; };
+		D0FCF24C1831F77900C7F9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF24B1831F77900C7F9CE /* main.m */; };
+		D0FCF2501831F77900C7F9CE /* Beetlebox_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */; };
+		D0FCF2531831F77900C7F9CE /* _stopSmoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2511831F77900C7F9CE /* _stopSmoke.xcdatamodeld */; };
+		D0FCF2551831F77900C7F9CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2541831F77900C7F9CE /* Images.xcassets */; };
+		D0FCF25C1831F77900C7F9CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF25B1831F77900C7F9CE /* XCTest.framework */; };
+		D0FCF25D1831F77900C7F9CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF23D1831F77900C7F9CE /* Foundation.framework */; };
+		D0FCF25E1831F77900C7F9CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2411831F77900C7F9CE /* UIKit.framework */; };
+		D0FCF25F1831F77900C7F9CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2431831F77900C7F9CE /* CoreData.framework */; };
+		D0FCF2671831F77900C7F9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2651831F77900C7F9CE /* InfoPlist.strings */; };
+		D0FCF2691831F77900C7F9CE /* _stopSmokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FCF2601831F77900C7F9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FCF2321831F77900C7F9CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FCF2391831F77900C7F9CE;
+			remoteInfo = "#stopSmoke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FCF23A1831F77900C7F9CE /* #stopSmoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#stopSmoke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FCF23D1831F77900C7F9CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0FCF23F1831F77900C7F9CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0FCF2411831F77900C7F9CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0FCF2431831F77900C7F9CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0FCF2471831F77900C7F9CE /* #stopSmoke-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#stopSmoke-Info.plist"; sourceTree = "<group>"; };
+		D0FCF2491831F77900C7F9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0FCF24B1831F77900C7F9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0FCF24D1831F77900C7F9CE /* #stopSmoke-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "#stopSmoke-Prefix.pch"; sourceTree = "<group>"; };
+		D0FCF24E1831F77900C7F9CE /* Beetlebox_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beetlebox_AppDelegate.h; sourceTree = "<group>"; };
+		D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beetlebox_AppDelegate.m; sourceTree = "<group>"; };
+		D0FCF2521831F77900C7F9CE /* _stopSmoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _stopSmoke.xcdatamodel; sourceTree = "<group>"; };
+		D0FCF2541831F77900C7F9CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0FCF25A1831F77900C7F9CE /* #stopSmokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#stopSmokeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FCF25B1831F77900C7F9CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0FCF2641831F77900C7F9CE /* #stopSmokeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#stopSmokeTests-Info.plist"; sourceTree = "<group>"; };
+		D0FCF2661831F77900C7F9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _stopSmokeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FCF2371831F77900C7F9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF2401831F77900C7F9CE /* CoreGraphics.framework in Frameworks */,
+				D0FCF2441831F77900C7F9CE /* CoreData.framework in Frameworks */,
+				D0FCF2421831F77900C7F9CE /* UIKit.framework in Frameworks */,
+				D0FCF23E1831F77900C7F9CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FCF2571831F77900C7F9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF25C1831F77900C7F9CE /* XCTest.framework in Frameworks */,
+				D0FCF25F1831F77900C7F9CE /* CoreData.framework in Frameworks */,
+				D0FCF25E1831F77900C7F9CE /* UIKit.framework in Frameworks */,
+				D0FCF25D1831F77900C7F9CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FCF2311831F77900C7F9CE = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2451831F77900C7F9CE /* #stopSmoke */,
+				D0FCF2621831F77900C7F9CE /* #stopSmokeTests */,
+				D0FCF23C1831F77900C7F9CE /* Frameworks */,
+				D0FCF23B1831F77900C7F9CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FCF23B1831F77900C7F9CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF23A1831F77900C7F9CE /* #stopSmoke.app */,
+				D0FCF25A1831F77900C7F9CE /* #stopSmokeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FCF23C1831F77900C7F9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF23D1831F77900C7F9CE /* Foundation.framework */,
+				D0FCF23F1831F77900C7F9CE /* CoreGraphics.framework */,
+				D0FCF2411831F77900C7F9CE /* UIKit.framework */,
+				D0FCF2431831F77900C7F9CE /* CoreData.framework */,
+				D0FCF25B1831F77900C7F9CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FCF2451831F77900C7F9CE /* #stopSmoke */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF24E1831F77900C7F9CE /* Beetlebox_AppDelegate.h */,
+				D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */,
+				D0FCF2541831F77900C7F9CE /* Images.xcassets */,
+				D0FCF2511831F77900C7F9CE /* _stopSmoke.xcdatamodeld */,
+				D0FCF2461831F77900C7F9CE /* Supporting Files */,
+			);
+			path = "#stopSmoke";
+			sourceTree = "<group>";
+		};
+		D0FCF2461831F77900C7F9CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2471831F77900C7F9CE /* #stopSmoke-Info.plist */,
+				D0FCF2481831F77900C7F9CE /* InfoPlist.strings */,
+				D0FCF24B1831F77900C7F9CE /* main.m */,
+				D0FCF24D1831F77900C7F9CE /* #stopSmoke-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0FCF2621831F77900C7F9CE /* #stopSmokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */,
+				D0FCF2631831F77900C7F9CE /* Supporting Files */,
+			);
+			path = "#stopSmokeTests";
+			sourceTree = "<group>";
+		};
+		D0FCF2631831F77900C7F9CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2641831F77900C7F9CE /* #stopSmokeTests-Info.plist */,
+				D0FCF2651831F77900C7F9CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FCF2391831F77900C7F9CE /* #stopSmoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FCF26C1831F77900C7F9CE /* Build configuration list for PBXNativeTarget "#stopSmoke" */;
+			buildPhases = (
+				D0FCF2361831F77900C7F9CE /* Sources */,
+				D0FCF2371831F77900C7F9CE /* Frameworks */,
+				D0FCF2381831F77900C7F9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "#stopSmoke";
+			productName = "#stopSmoke";
+			productReference = D0FCF23A1831F77900C7F9CE /* #stopSmoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FCF2591831F77900C7F9CE /* #stopSmokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FCF26F1831F77900C7F9CE /* Build configuration list for PBXNativeTarget "#stopSmokeTests" */;
+			buildPhases = (
+				D0FCF2561831F77900C7F9CE /* Sources */,
+				D0FCF2571831F77900C7F9CE /* Frameworks */,
+				D0FCF2581831F77900C7F9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FCF2611831F77900C7F9CE /* PBXTargetDependency */,
+			);
+			name = "#stopSmokeTests";
+			productName = "#stopSmokeTests";
+			productReference = D0FCF25A1831F77900C7F9CE /* #stopSmokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FCF2321831F77900C7F9CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Beetlebox_;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = netra;
+				TargetAttributes = {
+					D0FCF2591831F77900C7F9CE = {
+						TestTargetID = D0FCF2391831F77900C7F9CE;
+					};
+				};
+			};
+			buildConfigurationList = D0FCF2351831F77900C7F9CE /* Build configuration list for PBXProject "#stopSmoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0FCF2311831F77900C7F9CE;
+			productRefGroup = D0FCF23B1831F77900C7F9CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FCF2391831F77900C7F9CE /* #stopSmoke */,
+				D0FCF2591831F77900C7F9CE /* #stopSmokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FCF2381831F77900C7F9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF24A1831F77900C7F9CE /* InfoPlist.strings in Resources */,
+				D0FCF2551831F77900C7F9CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FCF2581831F77900C7F9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF2671831F77900C7F9CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FCF2361831F77900C7F9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF24C1831F77900C7F9CE /* main.m in Sources */,
+				D0FCF2531831F77900C7F9CE /* _stopSmoke.xcdatamodeld in Sources */,
+				D0FCF2501831F77900C7F9CE /* Beetlebox_AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FCF2561831F77900C7F9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FCF2691831F77900C7F9CE /* _stopSmokeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FCF2611831F77900C7F9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FCF2391831F77900C7F9CE /* #stopSmoke */;
+			targetProxy = D0FCF2601831F77900C7F9CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FCF2481831F77900C7F9CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FCF2491831F77900C7F9CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0FCF2651831F77900C7F9CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FCF2661831F77900C7F9CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FCF26A1831F77900C7F9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0FCF26B1831F77900C7F9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FCF26D1831F77900C7F9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
+				INFOPLIST_FILE = "#stopSmoke/#stopSmoke-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0FCF26E1831F77900C7F9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
+				INFOPLIST_FILE = "#stopSmoke/#stopSmoke-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0FCF2701831F77900C7F9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/#stopSmoke.app/#stopSmoke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "#stopSmokeTests/#stopSmokeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0FCF2711831F77900C7F9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/#stopSmoke.app/#stopSmoke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#stopSmoke/#stopSmoke-Prefix.pch";
+				INFOPLIST_FILE = "#stopSmokeTests/#stopSmokeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FCF2351831F77900C7F9CE /* Build configuration list for PBXProject "#stopSmoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FCF26A1831F77900C7F9CE /* Debug */,
+				D0FCF26B1831F77900C7F9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FCF26C1831F77900C7F9CE /* Build configuration list for PBXNativeTarget "#stopSmoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FCF26D1831F77900C7F9CE /* Debug */,
+				D0FCF26E1831F77900C7F9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0FCF26F1831F77900C7F9CE /* Build configuration list for PBXNativeTarget "#stopSmokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FCF2701831F77900C7F9CE /* Debug */,
+				D0FCF2711831F77900C7F9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0FCF2511831F77900C7F9CE /* _stopSmoke.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0FCF2521831F77900C7F9CE /* _stopSmoke.xcdatamodel */,
+			);
+			currentVersion = D0FCF2521831F77900C7F9CE /* _stopSmoke.xcdatamodel */;
+			path = _stopSmoke.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0FCF2321831F77900C7F9CE /* Project object */;
+}
