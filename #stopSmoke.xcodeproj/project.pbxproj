@@ -13,7 +13,7 @@
 		D0FCF2441831F77900C7F9CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2431831F77900C7F9CE /* CoreData.framework */; };
 		D0FCF24A1831F77900C7F9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2481831F77900C7F9CE /* InfoPlist.strings */; };
 		D0FCF24C1831F77900C7F9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF24B1831F77900C7F9CE /* main.m */; };
-		D0FCF2501831F77900C7F9CE /* Beetlebox_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */; };
+		D0FCF2501831F77900C7F9CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF24F1831F77900C7F9CE /* AppDelegate.m */; };
 		D0FCF2531831F77900C7F9CE /* _stopSmoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2511831F77900C7F9CE /* _stopSmoke.xcdatamodeld */; };
 		D0FCF2551831F77900C7F9CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2541831F77900C7F9CE /* Images.xcassets */; };
 		D0FCF25C1831F77900C7F9CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF25B1831F77900C7F9CE /* XCTest.framework */; };
@@ -23,6 +23,17 @@
 		D0FCF2671831F77900C7F9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF2651831F77900C7F9CE /* InfoPlist.strings */; };
 		D0FCF2691831F77900C7F9CE /* _stopSmokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */; };
 		D0FCF2731831FBF100C7F9CE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */; };
+		D0FCF27B18321DD400C7F9CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF27A18321DD400C7F9CE /* Parse.framework */; };
+		D0FCF27D18321F9100C7F9CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF27C18321F9100C7F9CE /* Security.framework */; };
+		D0FCF27F18321F9B00C7F9CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF27E18321F9B00C7F9CE /* SystemConfiguration.framework */; };
+		D0FCF28118321FA600C7F9CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28018321FA600C7F9CE /* AVFoundation.framework */; };
+		D0FCF28318321FAB00C7F9CE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28218321FAB00C7F9CE /* JavaScriptCore.framework */; };
+		D0FCF28718321FB600C7F9CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28418321FB500C7F9CE /* AudioToolbox.framework */; };
+		D0FCF28918321FB600C7F9CE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28618321FB600C7F9CE /* CoreAudio.framework */; };
+		D0FCF28D1832204100C7F9CE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28C1832204100C7F9CE /* MobileCoreServices.framework */; };
+		D0FCF28F1832204D00C7F9CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCF28E1832204D00C7F9CE /* CoreLocation.framework */; };
+		D0FCF2941832220100C7F9CE /* StartSmokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2931832220100C7F9CE /* StartSmokeViewController.m */; };
+		D0FCF2971832220F00C7F9CE /* netra.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCF2961832220F00C7F9CE /* netra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +56,8 @@
 		D0FCF2491831F77900C7F9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0FCF24B1831F77900C7F9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0FCF24D1831F77900C7F9CE /* #stopSmoke-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "#stopSmoke-Prefix.pch"; sourceTree = "<group>"; };
-		D0FCF24E1831F77900C7F9CE /* Beetlebox_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beetlebox_AppDelegate.h; sourceTree = "<group>"; };
-		D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beetlebox_AppDelegate.m; sourceTree = "<group>"; };
+		D0FCF24E1831F77900C7F9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0FCF24F1831F77900C7F9CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D0FCF2521831F77900C7F9CE /* _stopSmoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _stopSmoke.xcdatamodel; sourceTree = "<group>"; };
 		D0FCF2541831F77900C7F9CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0FCF25A1831F77900C7F9CE /* #stopSmokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#stopSmokeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +66,20 @@
 		D0FCF2661831F77900C7F9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0FCF2681831F77900C7F9CE /* _stopSmokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _stopSmokeTests.m; sourceTree = "<group>"; };
 		D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		D0FCF27A18321DD400C7F9CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D0FCF27C18321F9100C7F9CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D0FCF27E18321F9B00C7F9CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D0FCF28018321FA600C7F9CE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0FCF28218321FAB00C7F9CE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D0FCF28418321FB500C7F9CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D0FCF28618321FB600C7F9CE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D0FCF28A18321FED00C7F9CE /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		D0FCF28C1832204100C7F9CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D0FCF28E1832204D00C7F9CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0FCF2921832220100C7F9CE /* StartSmokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartSmokeViewController.h; sourceTree = "<group>"; };
+		D0FCF2931832220100C7F9CE /* StartSmokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartSmokeViewController.m; sourceTree = "<group>"; };
+		D0FCF2951832220F00C7F9CE /* netra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netra.h; sourceTree = "<group>"; };
+		D0FCF2961832220F00C7F9CE /* netra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +87,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FCF28F1832204D00C7F9CE /* CoreLocation.framework in Frameworks */,
+				D0FCF28D1832204100C7F9CE /* MobileCoreServices.framework in Frameworks */,
+				D0FCF28718321FB600C7F9CE /* AudioToolbox.framework in Frameworks */,
+				D0FCF28918321FB600C7F9CE /* CoreAudio.framework in Frameworks */,
+				D0FCF28318321FAB00C7F9CE /* JavaScriptCore.framework in Frameworks */,
+				D0FCF28118321FA600C7F9CE /* AVFoundation.framework in Frameworks */,
+				D0FCF27F18321F9B00C7F9CE /* SystemConfiguration.framework in Frameworks */,
+				D0FCF27D18321F9100C7F9CE /* Security.framework in Frameworks */,
 				D0FCF2401831F77900C7F9CE /* CoreGraphics.framework in Frameworks */,
 				D0FCF2731831FBF100C7F9CE /* FacebookSDK.framework in Frameworks */,
 				D0FCF2441831F77900C7F9CE /* CoreData.framework in Frameworks */,
 				D0FCF2421831F77900C7F9CE /* UIKit.framework in Frameworks */,
+				D0FCF27B18321DD400C7F9CE /* Parse.framework in Frameworks */,
 				D0FCF23E1831F77900C7F9CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +140,16 @@
 		D0FCF23C1831F77900C7F9CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0FCF28E1832204D00C7F9CE /* CoreLocation.framework */,
+				D0FCF28C1832204100C7F9CE /* MobileCoreServices.framework */,
+				D0FCF28A18321FED00C7F9CE /* AudioUnit.framework */,
+				D0FCF28418321FB500C7F9CE /* AudioToolbox.framework */,
+				D0FCF28618321FB600C7F9CE /* CoreAudio.framework */,
+				D0FCF28218321FAB00C7F9CE /* JavaScriptCore.framework */,
+				D0FCF28018321FA600C7F9CE /* AVFoundation.framework */,
+				D0FCF27E18321F9B00C7F9CE /* SystemConfiguration.framework */,
+				D0FCF27C18321F9100C7F9CE /* Security.framework */,
+				D0FCF27A18321DD400C7F9CE /* Parse.framework */,
 				D0FCF2721831FBF100C7F9CE /* FacebookSDK.framework */,
 				D0FCF23D1831F77900C7F9CE /* Foundation.framework */,
 				D0FCF23F1831F77900C7F9CE /* CoreGraphics.framework */,
@@ -119,8 +163,9 @@
 		D0FCF2451831F77900C7F9CE /* #stopSmoke */ = {
 			isa = PBXGroup;
 			children = (
-				D0FCF24E1831F77900C7F9CE /* Beetlebox_AppDelegate.h */,
-				D0FCF24F1831F77900C7F9CE /* Beetlebox_AppDelegate.m */,
+				D0FCF274183219B700C7F9CE /* apps */,
+				D0FCF24E1831F77900C7F9CE /* AppDelegate.h */,
+				D0FCF24F1831F77900C7F9CE /* AppDelegate.m */,
 				D0FCF2541831F77900C7F9CE /* Images.xcassets */,
 				D0FCF2511831F77900C7F9CE /* _stopSmoke.xcdatamodeld */,
 				D0FCF2461831F77900C7F9CE /* Supporting Files */,
@@ -155,6 +200,73 @@
 				D0FCF2651831F77900C7F9CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0FCF274183219B700C7F9CE /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2901832214300C7F9CE /* netra */,
+				D0FCF275183219B700C7F9CE /* controller */,
+				D0FCF276183219B700C7F9CE /* helper */,
+				D0FCF277183219B700C7F9CE /* library */,
+				D0FCF278183219B700C7F9CE /* model */,
+				D0FCF279183219B700C7F9CE /* view */,
+			);
+			path = apps;
+			sourceTree = "<group>";
+		};
+		D0FCF275183219B700C7F9CE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D0FCF276183219B700C7F9CE /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		D0FCF277183219B700C7F9CE /* library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		D0FCF278183219B700C7F9CE /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D0FCF279183219B700C7F9CE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF291183221F000C7F9CE /* startSmoke */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D0FCF2901832214300C7F9CE /* netra */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2951832220F00C7F9CE /* netra.h */,
+				D0FCF2961832220F00C7F9CE /* netra.m */,
+			);
+			path = netra;
+			sourceTree = "<group>";
+		};
+		D0FCF291183221F000C7F9CE /* startSmoke */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF2921832220100C7F9CE /* StartSmokeViewController.h */,
+				D0FCF2931832220100C7F9CE /* StartSmokeViewController.m */,
+			);
+			path = startSmoke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +313,7 @@
 		D0FCF2321831F77900C7F9CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Beetlebox_;
+				CLASSPREFIX = netra_;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = netra;
 				TargetAttributes = {
@@ -254,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FCF24C1831F77900C7F9CE /* main.m in Sources */,
+				D0FCF2971832220F00C7F9CE /* netra.m in Sources */,
+				D0FCF2941832220100C7F9CE /* StartSmokeViewController.m in Sources */,
 				D0FCF2531831F77900C7F9CE /* _stopSmoke.xcdatamodeld in Sources */,
-				D0FCF2501831F77900C7F9CE /* Beetlebox_AppDelegate.m in Sources */,
+				D0FCF2501831F77900C7F9CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
